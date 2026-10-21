@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventario - Listas Enlazadas</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .formulario { margin-bottom: 15px; padding: 15px; border: 1px solid #ccc; max-width: 400px; }
+        input { display: block; margin-bottom: 10px; width: 90%; padding: 5px; }
+        button { margin: 5px 2px; padding: 5px 10px; cursor: pointer; }
+        #detalles { margin-top: 20px; padding: 15px; border: 1px dashed #666; background-color: #f9f9f9; max-width: 500px; }
+    </style>
+</head>
+<body>
+
+    <h2>Inventario de Productos</h2>
+    
+    <div class="formulario">
+        <input type="text" id="txtCodigo" placeholder="Código del producto">
+        <input type="text" id="txtNombre" placeholder="Nombre">
+        <input type="number" id="txtCantidad" placeholder="Cantidad">
+        <input type="number" id="txtCosto" placeholder="Costo">
+        <input type="number" id="txtPosicion" placeholder="Posición (Solo para insertar)">
+    </div>
+
+    <div>
+        <button id="btnAgregar">Agregar al final</button>
+        <button id="btnAgregarInicio">Agregar al inicio</button>
+        <button id="btnInsertar">Insertar en posición</button>
+        <button id="btnBuscar">Buscar por código</button>
+        <button id="btnEliminar">Eliminar por código</button>
+        <button id="btnExtraer">Extraer el primero</button>
+        <button id="btnListar">Listar todos</button>
+    </div>
+
+    <div id="detalles">
+        <em></em>
+    </div>
+
+    <script src="producto.js"></script>
+    <script src="inventario.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+</body>
+</html>
